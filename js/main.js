@@ -13,5 +13,11 @@ for(i = 0; i < acc.length; i++ ) {
         txt.style.display = "block";
         }
 
+    /*if (txt.style.maxHeight) {
+        txt.style.maxHeight = null;
+    } else {
+        txt.style.maxHeight = txt.scrollHeight + "px";
+    }*/
+
     });
 }

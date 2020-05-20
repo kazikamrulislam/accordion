@@ -1,3 +1,9 @@
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
 .accordion{
     background-color: #eeeeee;
     color: #330000;
@@ -12,6 +18,10 @@
 
 .active, .accordion:hover {
     background-color: #fafafa;
+}
+
+.active, p{
+    text-align: justify;
 }
 .txt {
     padding: 0 18px;
